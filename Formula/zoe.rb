@@ -5,14 +5,14 @@ class Zoe < Formula
   desc "The missing companion for Kafka"
   homepage "https://adevinta.github.io/zoe"
   bottle :unneeded
-  version "0.15.1"
+  version "0.16.2"
   
   if OS.mac?
-    url "https://github.com/adevinta/zoe/releases/download/v0.15.1/zoe-with-runtime-Darwin-i386-0.15.1.zip"
-    sha256 "eb2ab9ec895f51656f3cdf931472fa5862b225d4ffb2b3f928752b1d9ed580a9"
+    url "https://github.com/adevinta/zoe/releases/download/v0.16.2/zoe-with-runtime-Darwin-i386-0.16.2.zip"
+    sha256 "a4e851909f563df72c7378c8d40ba1ed9e1d4eb41aa480ee1a5899fe888e6820"
   elsif OS.linux?
-    url "https://github.com/adevinta/zoe/releases/download/v0.15.1/zoe-with-runtime-Linux-x86_64-0.15.1.zip"
-    sha256 "ad51f7cdcd17f72a8b0e6653af676b1a4eff35fc488e80e9e16df6c3a45e7c5c"
+    url "https://github.com/adevinta/zoe/releases/download/v0.16.2/zoe-with-runtime-Linux-x86_64-0.16.2.zip"
+    sha256 "0fd7f87732800e3950ec415b22e3f60c69142115061bc0912ecaf758648777d7"
   end
 
   def install
